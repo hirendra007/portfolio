@@ -1,0 +1,13 @@
+function sendEmail(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "hirendrabalaji3@gmail.com",
+        Password : "9ED7594B74495DD4443F6F8A4092ADFAA462",
+        To : 'hirendrabalaji27@gmail.com',
+        From : "hirendrabalaji27@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+       document.getElementById("text").innerHTML = "Your response has been successfully submitted"
+    );
+}
