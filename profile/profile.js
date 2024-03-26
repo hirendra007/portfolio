@@ -11,3 +11,13 @@ function sendEmail(){
        document.getElementById("text").innerHTML = "Your response has been successfully submitted"
     );
 }
+const icon=document.getElementById("icon");
+function darktheme(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src="sun.png";
+    }
+    else{
+        icon.src="moon.png";
+    }
+}
