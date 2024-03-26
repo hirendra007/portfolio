@@ -6,7 +6,10 @@ function sendEmail(){
         To : 'hirendrabalaji27@gmail.com',
         From : "hirendrabalaji27@gmail.com",
         Subject : "This is the subject",
-        Body : "And this is the body"
+        Body: "Name:"+ document.getElementById("name").value
+        + "<br> Email:" + document.getElementById("email").value
+        + "<br> Pnone no: " + document.getElementById("phone").value
+        + "<br> Message:" + document.getElementById("message").value
     }).then(
        document.getElementById("text").innerHTML = "Your response has been successfully submitted"
     );
