@@ -8,7 +8,6 @@ function sendEmail(){
         Subject : "This is the subject",
         Body: "Name:"+ document.getElementById("name").value
         + "<br> Email:" + document.getElementById("email").value
-        + "<br> Pnone no: " + document.getElementById("phone").value
         + "<br> Message:" + document.getElementById("message").value
     }).then(
        document.getElementById("text").innerHTML = "Your response has been successfully submitted"
