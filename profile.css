@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 :root{
-    --first-color: #0e2431;
-    --second-color: #6a59d1;
-    --third-color: #777;
-
-    --hover-color: #614fd0;
-
-    --body-bg-color:#fefefe;
-    --pr_color:rgba(255, 255, 255, 0.904);
-    --pr-bg:black;
-
-}
-.dark-theme{
+    
     --first-color: #fefefe;
     --second-color: #6a59d1;
     --third-color: #979797;
-
+    
     --hover-color: #614fd0;
-
+    
     --body-bg-color:black;
     --pr_color: rgba(0, 0, 0, 0.904);
     --pr-bg:#fefefe;
+}
+.dark-theme{
+    --first-color: #0e2431;
+    --second-color: #6a59d1;
+    --third-color: #777;
+    
+    --hover-color: #614fd0;
+    
+    --body-bg-color:#fefefe;
+    --pr_color:rgba(255, 255, 255, 0.904);
+    --pr-bg:black;
 }
 *{
     margin:0;
