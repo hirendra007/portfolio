@@ -17,9 +17,9 @@ const icon=document.getElementById("icon");
 function darktheme(){
     document.body.classList.toggle("dark-theme");
     if(document.body.classList.contains("dark-theme")){
-      icon.src="sun.png";
+      icon.src="./assests/sun.png";
     }
     else{
-        icon.src="moon.png";
+        icon.src="./assests/moon.png";
     }
 }
