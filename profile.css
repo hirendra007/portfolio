@@ -159,7 +159,6 @@ img{
     padding-top: 10% ;
     margin-inline: 10%;
     position: relative;
-    min-height: 100vh;
     width: auto;
     padding-bottom: 20%;
 }
@@ -167,13 +166,10 @@ img{
 .projects{
     padding-top: 10% ;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    padding-inline: 10%;
 }
 
 .pr-f{
+    padding: 20px;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -195,7 +191,7 @@ img{
 .pr-f:hover .pr-py {
     transform: rotateY(180deg);
 }
-.pf,.pb,.pb_w{
+.pf,.pb_w{
     position:absolute;
     width: 100%;
     height: 100%;
@@ -208,12 +204,12 @@ img{
     justify-content: center;
     align-items: center;
 }
-.py,.web{
+.web{
     color: #d7d7d7;
     font-size: 100px;
 }
 
-.pb,.pb_w{
+.pb_w{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -222,7 +218,7 @@ img{
     transform: rotateY(180deg);
     padding-block: 30%;
 }
-.pb a,.pb_w a{
+.pb_w a{
     line-height: 2rem;
     font-size: 20px;
     font-weight: 700;
